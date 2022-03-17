@@ -2,7 +2,7 @@ import React from 'react'
 import { Box } from '@chakra-ui/react'
 import forest from '../Images/forest.png'
 
-const Category = ({ name, link, background }) => {
+const Category = ({ name }) => {
     console.log(name)
     return (
         <Box>

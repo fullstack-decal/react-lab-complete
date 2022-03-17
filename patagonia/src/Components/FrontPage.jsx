@@ -27,28 +27,27 @@ const FrontPage = () => {
     }
 
     return (
-        <Box height="1000px" align="center" bgImage={mountains} bgRepeat="no-repeat" bgSize="cover" bgPos="center">
+        <Box height="50%" align="center" bgImage={mountains} bgRepeat="no-repeat" bgSize="cover" bgPos="center">
             <Box color="white" fontWeight={700} height={90} bgColor="none">
                 <Flex height={90} pt={10} justifyContent="center" alignItems="center">
                     <Box width="13%" fontSize="32px">
                         patagonia
                     </Box>
                     <Spacer/>
-                    <Box ml="200px" px="50px" mt={4}>
+                    <Box ml="5%" px="5%" mt={4}>
                         Shop
                     </Box>
-                    <Box px="50px" mt={4}>
+                    <Box px="5%" mt={4}>
                         Activism
                     </Box>
-                    <Box px="50px" mt={4}>
+                    <Box px="5%" mt={4}>
                         Sports
                     </Box>
-                    <Box pl="50px" mt={4}>
+                    <Box pl="5%" mt={4}>
                         Stories
                     </Box>
-                    <Spacer/>
-                    <Spacer/>
-                    <Box px="20px" mt={4}>
+
+                    <Box ml="10%" px="20px" mt={4}>
                         <Search2Icon h={6} w={6} />
                     </Box>
                     <Box px="20px" mt={4}>
@@ -65,7 +64,7 @@ const FrontPage = () => {
                     <Spacer/>
                 </Flex>
             </Box>
-            <Box paddingTop={260} color="white" fontWeight={700} fontSize="3.8rem">
+            <Box paddingTop="15%" color="white" fontWeight={700} fontSize="3.8rem">
                 Keep the Tongass Roadless
             </Box>
             <Box width="45%" color="white" fontSize="1.3rem">
@@ -105,8 +104,8 @@ const FrontPage = () => {
                 </ModalFooter>
                 </ModalContent>
             </Modal>
-            <Box mt={300}>
-                <ChevronDownIcon w={8} h={8} color="white"/>
+            <Box mt="12%">
+                <ChevronDownIcon w={12} h={12} color="white"/>
             </Box>
         </Box>
     )
